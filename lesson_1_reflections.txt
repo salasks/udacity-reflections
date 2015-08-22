@@ -1,0 +1,40 @@
+> How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	 Made it easier to jump straight to the lines that were different.
+	 At a previous job, we could run a similar process before checking in our work called RUN TOOLKIT COMPARE in a pseudo-UNIX prompt.
+
+> How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	 Can roll back to any previously stored version if necessary.
+	 At the same previous job, all previous production versions of programs were automatically saved.
+	 However, it was considered best practice to keep all the code from previous versions in the code but just comment it out. This led to some truly ugly-looking and hard to maintain code.
+
+> What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Auto-saves ensure that you don't forget to save. Prevents human error.
+    Manual saves help you break down your project into sensible chunks.
+
+> Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    With code, the files are much more likely to be related and interdependent.
+    Using unrelated versions of files in Git might cause the project to break.
+    On the other hand, Google Docs files are usually not connected so can be saved separately.
+
+> How can you use the commands git log and git diff to view the history of files?
+
+    Use 'git log' to see a history of commits, along dates and messages. Add --stat to see the number of lines changed for each commit.
+    Use 'git diff' to see the difference between two files. It's similar to compare differences between article versions on wikipedia.
+
+> How might using version control make you more confident to make changes that
+could break something?
+
+    Using version control, it is quick to find the revision state where the error was introduced and go from there.
+
+> Now that you have your workspace set up, what do you want to try using Git for?
+
+    Python and Javascript open source code projects
