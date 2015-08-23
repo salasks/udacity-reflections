@@ -21,14 +21,19 @@
 	> What is the benefit of having a copy of the last known state of the remote
 	stored locally?
 
-    Fill in your answer here
+    By having the last known state of the remote stored locally, you can make any needed merges
+    locally before pushing back upstream to origin.
 
 	> How would you collaborate without using Git or GitHub?  What would be easier,
 	and what would be harder?
 
-    Fill in your answer here
+    I would collaborate documents using Google Docs.
+    Collaborating code would be harder - probably use Subversion instead. But since most people use
+    Git and it has a better method for branching, sharing code would be harder.
 
 	> When would you want to make changes in a separate branch rather than directly in
 	master?  What benefits does each approach have?
 
-    Fill in your answer here 
+    It's a lot less complicated to make changes directly in master, especially when you need feedback from others in the form of pull requests.
+    However, when a change is significant, you 1) need that feedback and 2) need to stay updated on what's going on in master. As a result, branching is a necessity.
+    Branching allows you to work actively on a change without worrying that you'll miss out on changes or break code in master. 
