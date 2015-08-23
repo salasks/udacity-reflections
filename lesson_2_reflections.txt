@@ -30,5 +30,9 @@
 	The two features that were developed separately (adding coins and adding color) can be combined into a game that includes both.
 	The diagram shows that they are two separates paths from a common parent. The commit that merges them has two parents, one from each of the branches.
 
-	> What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+	> What are the pros and cons of Git's automatic merging vs. always doing merges
 	manually?
+
+	Automatic merging takes away a lot of the headache of making sure the diffs are accurate and the right changes are kept.
+	However, automatic merges don't deal with conflicts as cleanly as might be the case if you were just doing it manually.
+	Git tries to have the best of both worlds by doing automatic merging but resolving conflicts with manual intervention.
